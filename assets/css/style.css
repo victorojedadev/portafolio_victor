@@ -963,6 +963,7 @@ a:hover {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   background-color: #fff;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 
 .work-box:hover img {
@@ -1118,7 +1119,7 @@ a:hover {
 
 .img-linkedin {
   width: 275px;
-  height: 275px;
+  height: 200px;
 }
 
 /*------ Sidebar ------*/
@@ -1186,10 +1187,12 @@ footer .copyright {
 
 footer .credits {
   margin-bottom: 0;
+  font-size: 1.2rem;
 }
 
 footer .credits a {
   color: #fff;
+  font-weight: bold;
 }
 
 /********************************/
@@ -1256,10 +1259,9 @@ footer .credits a {
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: #e4edf9;
   padding: 5px 15px;
   display: inline-block;
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 10px;
 }
 
@@ -1308,5 +1310,7 @@ footer .credits a {
 }
 
 .linkedin-button {
-  display: inline-block;
+  font-weight: 600;
+  border: solid 5px #0078ff;
+  font-size: 2.5rem;
 }
