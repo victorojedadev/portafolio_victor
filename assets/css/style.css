@@ -1169,11 +1169,6 @@ a:hover {
   }
 }
 
-.img-linkedin {
-  width: 275px;
-  height: 200px;
-}
-
 /*------ Sidebar ------*/
 .widget-sidebar .sidebar-title {
   font-size: 1.6rem;
@@ -1353,6 +1348,11 @@ footer .credits a {
 
 .avatar {
   margin-bottom: -55px;
+}
+
+.img-linkedin:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
 }
 
 @media (max-width: 767px) {
